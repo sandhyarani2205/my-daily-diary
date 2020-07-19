@@ -1,0 +1,29 @@
+.header{
+    background-color: #73c9d4;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    .title{
+        // height: 5rem;
+        text-align: center;
+    }
+    .logo-container {
+        height: 100%;
+        width: 70px;
+        padding: .5rem 0 0 .5rem;
+      }
+    .options {
+        width: 25%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+        .option {
+          padding: 10px 15px;
+          cursor: pointer;
+        }
+      }
+}

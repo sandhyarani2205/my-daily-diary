@@ -1,0 +1,10 @@
+.my-day-wrapper{
+    display: flex;
+    flex-direction:column;
+    .btn-submit{
+        height: 4rem;
+        width: 10rem;
+        text-align: center;
+        margin: 0 0 1rem 3rem;
+    }
+}
